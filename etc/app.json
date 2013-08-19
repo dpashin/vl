@@ -1,0 +1,8 @@
+{
+    "db": {
+        "dsn": "mysql:dbname=vl;host=localhost",
+        "user": "vl",
+        "password": "vl"
+    },
+    "sendmail": true
+}

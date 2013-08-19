@@ -1,0 +1,92 @@
+body {
+    margin: 20px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: x-large;
+    margin: 1em 0;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: larger;
+    margin: 1em 0;
+}
+
+.register-form label {
+    display: inline-block;
+    min-width: 160px;
+    text-align: right;
+    margin-right: 1em;
+}
+
+.register-form p {
+    margin-bottom: 1em;
+}
+
+.login-form label {
+    display: inline-block;
+    min-width: 80px;
+    margin-right: 1em;
+}
+
+.login-form p {
+    margin-bottom: 1em;
+}
+
+.upload-form p {
+    margin-bottom: 1em;
+}
+
+.upload-form input[type="file"] {
+    display: block;
+    margin-bottom: 1em;
+}
+
+.upload-form #upload-status {
+    margin-bottom: 1em;
+}
+
+.upload-form #upload-status .error {
+    color: maroon;
+}
+
+.upload-form #upload-status .success {
+    color: green;
+}
+
+.upload-list {
+    margin-top: 1em;
+}
+
+.upload-list .item {
+    float: left;
+    margin: 1em;
+}
+
+.upload-list .item img {
+    border: 1px solid silver;
+}
+
+.resend-form p {
+    margin-bottom: 1em;
+}
+
+.form-errors {
+    margin: 1em 0 1em;
+}
+
+.form-errors li {
+    margin-top: 0.5em;
+    color: maroon;
+}
+
+.flash-success {
+    color: green;
+    margin: 1em 0 1em;
+}
+
+#ajax-loader {
+    display: none;
+}
